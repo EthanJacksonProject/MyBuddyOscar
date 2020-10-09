@@ -2,6 +2,9 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
+# This requires a selenium web driver to function. See here:
+# https://www.selenium.dev/documentation/en/webdriver/driver_requirements/
+
 # These have to match what Oscar has in the HTML
 term = "fall 2020"
 major = "Electrical & Computer Engr"
